@@ -1,1 +1,1 @@
-# Repository for final project
+# Flask web application integrated with Embeddable Watson AI libraries
