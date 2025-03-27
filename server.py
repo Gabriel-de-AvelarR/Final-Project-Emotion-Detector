@@ -7,14 +7,8 @@ from EmotionDetection.emotion_detection import emotion_detector
 # Configuração do Flask
 APP = Flask(
     "Emotion Detector",
-<<<<<<< HEAD
     template_folder='./templates',
-    static_folder='./static'
-=======
-    template_folder='Final-Project-Emotion-Detector/templates',
-    static_folder='Final-Project-Emotion-Detector/static'
->>>>>>> 1b8dd5a7b16022d9cdf90f3c35798553a16fedc0
-)
+    static_folder='./static')
 
 @APP.route('/')
 def render_home_page():
